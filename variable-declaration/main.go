@@ -14,4 +14,7 @@ func main() {
 	d = 0.344
 
 	fmt.Println(b, c, d)
+
+	// the following is invalid, since there is no init and no type, we do not know what it is
+	// var a
 }
